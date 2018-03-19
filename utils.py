@@ -45,8 +45,8 @@ def parsePreprints( preprints, json_object, headers, verbose=True ):
 		
 		# Also need to extract scalar values like id and construct the download link
 		id = json_object['data'][i]['id']
-		html_link = "https://eartharxiv.org/" + id 
-		download_link = "https://eartharxiv.org/" + id + "/download"
+		html_link = "https://engrxiv.org/" + id 
+		download_link = "https://engrxiv.org/" + id + "/download"
 		if ( verbose ): print( "Working on preprint ", len(preprints)+1 ) # should be 1 when len=0, thus the +1
 		
 		# Create a Preprint object to store all the information on this preprint
