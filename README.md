@@ -5,6 +5,8 @@ In order to access the API you will need an API Token. Tokens are unique to each
 
 Once you have the token, open the file named `api_token.py` and paste your token in place of `AUTHTOKEN`.
 
+The API call is handled through the OSF here: https://api.osf.io/v2/preprints/?filter[provider]=engrxiv&filter[reviews_state][ne]=initial
+
 
 TO DO
 ---------
